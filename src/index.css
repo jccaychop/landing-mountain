@@ -1,0 +1,16 @@
+@import url('https://fonts.cdnfonts.com/css/chronicle-display');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-Roboto;
+  }
+
+  body {
+    @apply bg-the-count-black text-white;
+  }
+}
